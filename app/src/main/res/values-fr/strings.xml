@@ -1,0 +1,163 @@
+<resources>
+    <!-- Page titles -->
+    <string name="app_name">ProxiFood</string>
+    <string name="title_home">Mes annonces</string>
+    <string name="title_dashboard">Rechercher</string>
+    <string name="title_notifications">Mon compte</string>
+
+    <!-- Common messages -->
+    <string name="error_field_required">Champ obligatoire</string>
+    <string name="error_invalid_email">Adresse email invalide</string>
+    <string name="error_server">Une erreur est survenue. Veuillez réessayer ultérieurement.</string>
+    <string name="delete">Supprimer</string>
+    <string name="contact">Contacter</string>
+    <string name="cancel">Annuler</string>
+    <string name="accept">Accepter</string>
+    <string name="or"> ou </string>
+    <string name="refuse">Refuser</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_login">Identifiant</string>
+    <string name="prompt_password">Mot de passe</string>
+    <string name="action_sign_in">Connexion</string>
+    <string name="authenticating_loader">Authentification en cours...</string>
+    <string name="no_account_link">Pas encore inscrit ? Créez un compte</string>
+    <string name="error_incorrect_password">Mot de passe incorrect</string>
+    <string name ="error_invalid_credentials">Identifiants incorrects</string>
+
+    <!-- Strings related to sign up -->
+    <string name="prompt_email">Adresse mail</string>
+    <string name="error_invalid_login">Le login doit contenir au moins 3 characters</string>
+    <string name="error_invalid_password">Le mot de passe doit contenir au moins 6 caractères</string>
+    <string name="prompt_select">Choisir</string>
+    <string name="create_account">Créer un compte</string>
+    <string name="already_member">Déjà membre ? Connectez-vous</string>
+    <string name="login_already_used">Identifiant non disponible</string>
+    <string name="email_already_used">Cette adresse est déjà utilisée</string>
+
+    <!-- Strings related to logout -->
+    <string name="disconnect">Déconnexion</string>
+    <string name="processing_logout">Déconnexion en cours</string>
+    <string name="successful_logout">Déconnexion réussie</string>
+
+
+    <!-- Strings related to user profile -->
+    <string name="contact_user">Contacter l\'utilisateur</string>
+    <string name="saving_profile">Enregistrement du profil...</string>
+    <string name="loading_profile">Chargement du profil...</string>
+
+
+
+    <!-- Strings related to view meals -->
+    <string name="processing_get_posts">Récupération des publications en cours</string>
+
+    <!-- Strings related to post new meal -->
+    <string-array name="meal_nb_participants">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5+</item>
+    </string-array>
+    <string name="cook_together">Proposer aux invités de cuisiner avec moi</string>
+    <string name="cook_with_host">Cuisiner avec mon hôte</string>
+    <string name="error_date_before">La date de fin d\'inscription doit précéder la date du repas</string>
+    <string name="processing_post">Publication en cours</string>
+
+    <!-- Strings related to edit meal -->
+    <string name="participants"> participants.</string>
+
+    <!-- Strings related to book meal -->
+    <string name="processing_book">Réservation en cours...</string>
+    <string name="contact_host">Contacter l\'hôte</string>
+    <string name="book">Réserver</string>
+
+
+    <!-- Input hints -->
+    <string name="hint_login">Login</string>
+    <string name="hint_email">Adresse mail</string>
+    <string name="hint_password">Mot de passe</string>
+    <string name="hint_firstname">Prénom</string>
+    <string name="hint_name">Nom</string>
+    <string name="hint_birthday">Date de naissance</string>
+    <string name="hint_describe_yourself">Décrivez-vous</string>
+    <string name="hint_street_number">N° de rue</string>
+    <string name="hint_street">Rue</string>
+    <string name="hint_zipcode">Code postal</string>
+    <string name="hint_city">Ville</string>
+    <string name="hint_complementary_info">Informations complémentaires</string>
+    <string name="hint_search_city">Rechercher une ville</string>
+
+    <string name="hint_host">Hôte</string>
+    <string name="hint_meal_name">Intitulé du repas</string>
+    <string name="hint_meal_description">Description du repas</string>
+    <string name="hint_meal_nb_participants">Nombre de places</string>
+    <string name="hint_meal_price">Prix du repas (en €)</string>
+    <string name="hint_meal_end_of_inscription">Date de fin d\'inscription</string>
+    <string name="hint_meal_date">Date du repas</string>
+
+
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="view_my_profile">Voir mon profil</string>
+    <string name="view_profile">Voir le profil</string>
+    <string name="edit_my_profile">Modifier mon profil</string>
+    <string name="booking_history">Historique de mes réservations</string>
+    <string name="my_reviews">Mes notes et commentaires</string>
+
+    <!-- Page titles -->
+    <string name="title_account">Mon compte</string>
+    <string name="title_research">Rechercher un repas</string>
+    <string name="title_edit_profile">Modifier mon profil</string>
+    <string name="title_update_address">Modifier mon adresse</string>
+    <string name="processing_delete_account">Suppression du compte...</string>
+    <string name="delete_account">Supprimer mon compte</string>
+    <string name="title_post">Publier un repas</string>
+    <string name="title_edit_post">Modifier mon repas</string>
+    <string name="title_view_post">Voir le repas</string>
+    <string name="title_book">Réserver</string>
+    <string name="title_accepted_participants">Invités acceptés</string>
+    <string name="title_bookings">Gérer mes réservations</string>
+    <string name="title_invitations">Gérer mes invitations</string>
+
+    <!-- Tab titles -->
+    <string name="tab_invitations">Mes invitations</string>
+    <string name="tab_bookings">Mes réservations</string>
+    <string name="tab_edit_post">Informations</string>
+    <string name="tab_participants">Invités</string>
+
+    <!-- Tabs titles -->
+    <string name="tab_profile">Profil</string>
+    <string name="tab_comments">Commentaires</string>
+    <string name="tab_offered_meals">Repas proposés</string>
+
+    <!-- Alerts -->
+    <string name="delete_account_confirmation">Êtes vous sûr de vouloir supprimer votre compte ?</string>
+    <string name="delete_post_confirmation">Êtes-vous sûr(e) de vouloir supprimer cette publication ?</string>
+    <string name="contact_user_confirmation">Êtes-vous sûr(e) de vouloir contacter cette personne ?</string>
+    <string name="accept_refuse_option">Voulez-vous accepter ou refuser cette réservation ?</string>
+    <string name="delete_confirm_button">Confirmer la suppression</string>
+
+    <!-- Toasts -->
+    <string name="successful_account_deletion">Votre compte a bien été supprimé.</string>
+    <string name="successful_post_deletion">Votre publication a bien été supprimée.</string>
+    <string name="successful_message_sent">Votre message a bien été envoyé.</string>
+    <string name="successful_booking_acceptance">La réservation a bien été acceptée.</string>
+    <string name="successful_booking_refusal">La réservation a bien été refusée.</string>
+
+    <!-- Information Messages -->
+    <string name="info_street_number">Votre numéro de rue ne sera communiqué à vos invités qu\'après confirmation de la réservation. </string>
+    <string name="info_add_address">Votre adresse est nécessaire si vous souhaitez devenir hôte.</string>
+
+    <string name="default_user_description">Cet utilisateur n\'a pas encore renseigné de description.</string>
+    <string name="default_comments_text">Cet utilisateur n\'a pas recueilli d\'avis pour le moment.</string>
+    <string name="default_offers_text">Cet utilisateur ne propose pas de repas pour le moment.</string>
+    <string name="default_address_text">Adresse non renseignée</string>
+    <string name="default_invitations_text">Vous ne proposez aucun repas pour le moment.</string>
+
+
+</resources>
